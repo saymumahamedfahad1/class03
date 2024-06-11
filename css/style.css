@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 12px;
+}
+.form-section{
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 100vh;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    width: 900px;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+}
+.left-side , .right-side{
+    flex-basis: 50%;
+}
+.left-side{
+    background: url(../image/celebrating-huge-sales-deal-handsome-man-his-30s-shouting-with-happiness-after-winning-business-deal-with-customer-call-center\ \(1\).jpg) center center no-repeat; 
+    background-size: cover;
+}
+.right-side{
+    padding: 50px;
+}
+input, select, textarea{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    
+}
+.name input{
+    width: 47.9%;
+}
+.name .first-name{
+    margin-right: 10px;
+    
+}
+.condition input{
+    width: auto;
+}
+input::placeholder , textarea::placeholder{
+    font-family: "Poppins";
+    
+}
+select{
+    font-family: "Poppins";
+}
+.btn1{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+}
